@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/rounded_edittext"
+    >
+
+    <TextView
+        android:id="@+id/bookmark_uosCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="UoS Code"
+        android:layout_marginStart="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/bookmark_weeks"
+        android:text="UoS weeks"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/bookmark_uosCode"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        />
+
+    <TextView
+        android:id="@+id/bookmark_uosName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UoS Name"
+        android:layout_below="@id/bookmark_uosCode"
+        android:layout_marginStart="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:id="@+id/bookmark_weekDay"
+        android:text="weekDay"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/bookmark_uosTime"
+        android:layout_marginEnd="5dp"
+        />
+
+    <TextView
+        android:id="@+id/bookmark_uosTime"
+        android:text="UoS Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookmark_uosName"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/bookmark_uosLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="UoS Location"
+        android:layout_below="@id/bookmark_uosTime"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="5dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:shadowColor="@android:color/holo_green_light"
+        />
+
+</RelativeLayout>

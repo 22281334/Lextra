@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7717D"
+    tools:context=".Sidebar.SideBarActivity">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="415dp"
+        android:layout_height="250dp"
+        android:background="@drawable/shadow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bookmark_btn"
+        android:layout_width="188dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#AFD275"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fontFamily="sans-serif"
+        android:linksClickable="true"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="@string/bookmark"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_setting_btn2"
+        android:onClick="onBookMarkClick"
+        />
+
+    <Button
+        android:id="@+id/bookmark_btn2"
+        android:layout_width="188dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#AFD275"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fontFamily="sans-serif"
+        android:linksClickable="true"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="@string/logout"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bookmark_btn"
+        android:onClick="onLogoutClick"
+        />
+
+    <Button
+        android:id="@+id/user_setting_btn2"
+        android:layout_width="188dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#AFD275"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:fontFamily="sans-serif"
+        android:linksClickable="true"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="@string/userSetting"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sidebar_avatar"
+        android:onClick="onSettingsClick"
+        />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/sidebar_avatar"
+        app:civ_border_color="#c2cad0"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="160dp"
+        app:civ_shadow_color="#ffffff"
+        android:contentDescription="@string/avatar_description"
+        android:src="@drawable/default_user_pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

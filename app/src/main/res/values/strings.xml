@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">lextra</string>
+    <string name="description">an extra leg</string>
+    <string name="avatar_description">An avatar</string>
+    <string name="userSetting">USER SETTING</string>
+    <string name="bookmark">BOOKMARK</string>
+    <string name="logout">LOG OUT</string>
+
+    <string name="filter_description">Filter your preferences</string>
+    <string name="filter_faculty">Choose which faculty</string>
+    <string name="filter_prefix">Choose unit prefixes</string>
+
+    <string name="filter_faculty_description">Faculty</string>
+    <string name="filter_prefix_description">Prefix</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm password</string>
+
+
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="submit">Submit</string>
+    <string name="bookmark_text">Units I like</string>
+
+
+</resources>
